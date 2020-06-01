@@ -1062,7 +1062,7 @@ fn send_grouped_commands_embed(
                     &help_options,
                 );
 
-                embed.field(group.name, &embed_text, true);
+                embed.field(group.name, &embed_text, false);
             }
 
             embed
